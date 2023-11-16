@@ -19,3 +19,8 @@ install: requirements.txt
 .PHONY: units
 units:
 	python3 -m unittest discover
+
+
+.PHONY: ansible-tests
+ansible-tests:
+	(cd tests/ansible_test && ./run_ansible_tests.sh)

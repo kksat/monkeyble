@@ -4,7 +4,9 @@ import unittest
 from ansible.errors import AnsibleError
 from ansible.playbook.task import Task
 
-from ansible_collections.hpe.monkeyble.plugins.module_utils.const import *
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import SUPPORTED_TEST
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import PASSED_TEST
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import SUPPORTED_TEST
 from ansible_collections.hpe.monkeyble.plugins.module_utils.exceptions import MonkeybleException
 
 
