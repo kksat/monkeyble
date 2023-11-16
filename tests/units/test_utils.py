@@ -2,8 +2,8 @@
 import unittest
 from unittest.mock import MagicMock
 
-from plugins.module_utils.const import PASSED_TEST, FAILED_TEST
-from plugins.module_utils.utils import MonkeybleUnsupportedTest, switch_test_method, get_task_config
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import PASSED_TEST, FAILED_TEST
+from ansible_collections.hpe.monkeyble.plugins.module_utils.utils import MonkeybleUnsupportedTest, switch_test_method, get_task_config
 
 
 class TestMonkeybleUtils(unittest.TestCase):
