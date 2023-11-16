@@ -13,16 +13,16 @@ from ansible.template import Templar
 from ansible.utils.display import Display
 
 
-BASE_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), '../..')
-)
-if BASE_DIR not in sys.path:
-    sys.path.insert(0, BASE_DIR)
+# BASE_DIR = os.path.abspath(
+#     os.path.join(os.path.dirname(__file__), '../..')
+# )
+# if BASE_DIR not in sys.path:
+#     sys.path.insert(0, BASE_DIR)
 
-from plugins.module_utils.utils import str_to_bool, switch_test_method, get_task_config
-from plugins.module_utils.const import PASSED_TEST, FAILED_TEST
-from plugins.module_utils.exceptions import MonkeybleException
-from plugins.module_utils._version import __version__
+from ansible_collections.hpe.monkeyble.plugins.module_utils.utils import str_to_bool, switch_test_method, get_task_config
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import PASSED_TEST, FAILED_TEST
+from ansible_collections.hpe.monkeyble.plugins.module_utils.exceptions import MonkeybleException
+from ansible_collections.hpe.monkeyble.plugins.module_utils._version import __version__
 
 global_display = Display()
 

@@ -4,8 +4,8 @@ import unittest
 from ansible.errors import AnsibleError
 from ansible.playbook.task import Task
 
-from plugins.module_utils.const import *
-from plugins.module_utils.exceptions import MonkeybleException
+from ansible_collections.hpe.monkeyble.plugins.module_utils.const import *
+from ansible_collections.hpe.monkeyble.plugins.module_utils.exceptions import MonkeybleException
 
 
 class MonkeybleUnsupportedTest(AnsibleError):

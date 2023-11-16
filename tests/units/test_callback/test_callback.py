@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-from plugins.callback.monkeyble_callback import MonkeybleException
+from ansible_collections.hpe.monkeyble.plugins.callback.monkeyble_callback import MonkeybleException
 from tests.units.test_callback.base_test_callback import BaseTestMonkeybleCallback
 
 
