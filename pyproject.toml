@@ -24,7 +24,8 @@ classifiers = [
     'Topic :: Utilities',
 ]
 include = [
-    'LICENSE.md'
+    'LICENSE.md',
+    'ansible_collections/hpe/monkeyble',
 ]
 
 [tool.poetry.dependencies]
